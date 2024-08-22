@@ -1,0 +1,22 @@
+# Vagrant-related files
+.vagrant/
+Vagrantfile
+Vagrantfile.local
+
+# HashiCorp Vault files
+*.hcl
+*.vault-token
+.vault/
+vault_config.json
+vault.hcl
+
+# Tokens and keys
+*.token
+*.key
+*.pem
+*.crt
+*.enc
+
+# Ignore environment files (if storing sensitive information)
+.env
+.env.local
